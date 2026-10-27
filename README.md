@@ -4,7 +4,7 @@
 
 A small Mac menu-bar app that shows your remaining allowance, reset time and extra credits. Open its window for usage history and low-balance alerts.
 
-**[Download for Mac](https://github.com/xyloshin/codex-usage-meter/releases/download/v2.2.0-beta.9/Codex-Meter-2.2.0-beta.9-macos-universal.zip)** · Public beta · macOS 14+ · Apple Silicon & Intel
+**[Download for Mac](https://github.com/xyloshin/codex-usage-meter/releases/download/v2.2.0-beta.10/Codex-Meter-2.2.0-beta.10-macos-universal.zip)** · Public beta · macOS 14+ · Apple Silicon & Intel
 
 <p>
 <img src="https://raw.githubusercontent.com/xyloshin/codex-usage-meter/main/assets/beta9-menu-tight.png" alt="In your Mac’s menu bar: normal, warning and low allowance, shown beside Wi-Fi and battery icons. Changes colour as your allowance runs low." width="600"><br>
@@ -15,7 +15,7 @@ A small Mac menu-bar app that shows your remaining allowance, reset time and ext
 
 ## What you get
 
-- **Allowance and extra credits**, shown separately.
+- **Allowance and extra credits**, shown separately. Credits turn yellow below 10,000 and red below 5,000.
 - **Usage history** over 24 hours, 7 days and 30 days.
 - **Low-balance and fast-usage alerts**, plus built-in updates.
 - **History kept on your Mac**, with no separate analytics account.
@@ -27,9 +27,9 @@ Download the ZIP, unzip it, and move **Codex Meter.app** to Applications. You’
 <details>
 <summary>Compatibility and beta testing</summary>
 
-Beta 2.2.0-beta.9 supports Apple Silicon and Intel, with a macOS 14 minimum. Node is bundled, so there’s nothing extra to install for that.
+Beta 2.2.0-beta.10 supports Apple Silicon and Intel, with a macOS 14 minimum. Node is bundled, so there’s nothing extra to install for that.
 
-In addition to local macOS 26 testing, the exact release passed automated download, Gatekeeper, bundled-runtime and native-startup checks on clean macOS 14.8.9 Apple Silicon and macOS 15.7.9 Intel runners. [Test results](https://github.com/xyloshin/codex-usage-meter/actions/runs/39235191489).
+In addition to local macOS 26 testing, the exact release passed automated download, Gatekeeper, bundled-runtime and native-startup checks on clean macOS 14 Apple Silicon and macOS 15 Intel runners. [Test results](https://github.com/xyloshin/codex-usage-meter/actions/runs/40589607028).
 
 Interactive use and signed-in usage on those older systems, plus physical-device sleep/wake and notifications, still need real-world testing.
 

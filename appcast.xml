@@ -3,12 +3,12 @@
   <channel>
     <title>Codex Meter Updates</title>
     <item>
-      <title>Codex Meter 2.2.0-beta.10</title>
-      <sparkle:version>10</sparkle:version>
-      <sparkle:shortVersionString>2.2.0-beta.10</sparkle:shortVersionString>
+      <title>Codex Meter 2.2.0-beta.11</title>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>2.2.0-beta.11</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>Whole-credit menu display with matching regular text, a clearer divider, yellow below 10,000 credits and red below 5,000.</description>
-      <enclosure url="https://github.com/xyloshin/codex-usage-meter/releases/download/v2.2.0-beta.10/Codex-Meter-2.2.0-beta.10-macos-universal.zip" sparkle:edSignature="jv9JWGcXP5CoX3aN8rLP2PSefHybxLkPoss0pNjQM4QzbssnTaQXRbIf8mLzmSTUGt5nbR9zAh6qoCu8oomACA==" length="84074147" type="application/octet-stream" />
+      <description>New Soft slate app icon, independent account reconnection, choice of sign-in browser and clearer expired-sign-in guidance.</description>
+      <enclosure url="https://github.com/xyloshin/codex-usage-meter/releases/download/v2.2.0-beta.11/Codex-Meter-2.2.0-beta.11-macos-universal.zip" sparkle:edSignature="nHvLQJSD/0HdsU7DF5FaNWGF0WZ848+A4HON6E7Ror89w6d+UhUZJgWu7XtGk/t6K6tAYNlhNtrychSFMcL2BQ==" length="83733902" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

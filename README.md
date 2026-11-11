@@ -1,3 +1,5 @@
+<p><img src="assets/codex-meter-soft-slate.png" alt="Codex Meter logo" width="112" height="112"></p>
+
 # Codex Meter
 
 **Your Codex allowance, at a glance.**

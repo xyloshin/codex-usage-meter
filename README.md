@@ -6,7 +6,7 @@
 
 A small Mac menu-bar app that shows your remaining allowance, reset time and extra credits. Open its window for usage history and low-balance alerts.
 
-**[Download for Mac](https://github.com/xyloshin/codex-usage-meter/releases/download/v2.2.0-beta.10/Codex-Meter-2.2.0-beta.10-macos-universal.zip)** · Public beta · macOS 14+ · Apple Silicon & Intel
+**[Download for Mac](https://github.com/xyloshin/codex-usage-meter/releases/download/v2.2.0-beta.11/Codex-Meter-2.2.0-beta.11-macos-universal.zip)** · Public beta · macOS 14+ · Apple Silicon & Intel
 
 <p>
 <img src="https://raw.githubusercontent.com/xyloshin/codex-usage-meter/main/assets/beta9-menu-tight.png" alt="In your Mac’s menu bar: normal, warning and low allowance, shown beside Wi-Fi and battery icons. Changes colour as your allowance runs low." width="600"><br>
@@ -21,6 +21,7 @@ A small Mac menu-bar app that shows your remaining allowance, reset time and ext
 - **Usage history** over 24 hours, 7 days and 30 days.
 - **Low-balance and fast-usage alerts**, plus built-in updates.
 - **History kept on your Mac**, with no separate analytics account.
+- **Independent account connections**, with reconnect and a choice of sign-in browser in Settings.
 
 ## Get started
 
@@ -29,9 +30,9 @@ Download the ZIP, unzip it, and move **Codex Meter.app** to Applications. You’
 <details>
 <summary>Compatibility and beta testing</summary>
 
-Beta 2.2.0-beta.10 supports Apple Silicon and Intel, with a macOS 14 minimum. Node is bundled, so there’s nothing extra to install for that.
+Beta 2.2.0-beta.11 supports Apple Silicon and Intel, with a macOS 14 minimum. Node is bundled, so there’s nothing extra to install for that.
 
-In addition to local macOS 26 testing, the exact release passed automated download, Gatekeeper, bundled-runtime and native-startup checks on clean macOS 14 Apple Silicon and macOS 15 Intel runners. [Test results](https://github.com/xyloshin/codex-usage-meter/actions/runs/40589607028).
+In addition to local macOS 26 testing, the exact release passed automated download, Gatekeeper, bundled-runtime and native-startup checks on clean macOS 15 Apple Silicon and Intel runners. [Test results](https://github.com/xyloshin/codex-usage-meter/actions/runs/42997594459). GitHub retired its macOS 14 runners, so this release has not been freshly run on macOS 14.
 
 Interactive use and signed-in usage on those older systems, plus physical-device sleep/wake and notifications, still need real-world testing.
 
@@ -42,7 +43,7 @@ The app is signed and notarized by Apple. Use the app ZIP rather than GitHub’s
 <details>
 <summary>Privacy and how it works</summary>
 
-Codex handles sign-in. Meter does not store passwords or sign-in tokens and does not start AI tasks to check usage. Account identifiers and usage history stay on your Mac, with no cloud history sync.
+Codex handles sign-in. Meter does not ask for passwords or start AI tasks to check usage. Independently connected accounts keep their Codex authentication data locally so they can refresh without switching your main account. Account identifiers and usage history also stay on your Mac, with no cloud history sync.
 
 Meter tracks Codex usage, not ordinary ChatGPT conversation limits or API billing. Purchased-credit usage is shown when your allowance runs out. Alerts do not pause tasks or limit spending.
 
